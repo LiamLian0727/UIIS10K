@@ -37,7 +37,7 @@ Code is coming soon
 If you find our repo useful for your research, please cite us:
 ```
 @InProceedings{UIIS_Dataset_2023,
-    author    = {Lian, Shijie and Li, Hua and Cong, Runmin and Li, Suqi and Zhang, Wei and Kwong, Sam},
+    author    = {Shijie Lian, Hua Li, Runmin Cong, Suqi Li, Wei Zhang, Sam Kwong},
     title     = {WaterMask: Instance Segmentation for Underwater Imagery},
     booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
     month     = {October},
