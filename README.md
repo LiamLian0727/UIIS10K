@@ -51,7 +51,7 @@ If you find our repo useful for your research, please cite us:
     year      = {2025},
     journal   = {arXiv preprint},
 }
-
+```
 ## Acknowledgement
 This repository is implemented based on the [MMDetection](https://github.com/open-mmlab/mmdetection) framework and [Segment Anything Model](https://huggingface.co/facebook/sam-vit-huge). Thanks to them for their excellent work.
 
