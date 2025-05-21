@@ -54,4 +54,4 @@ If you find our repo useful for your research, please cite us:
 This repository is implemented based on the [MMDetection](https://github.com/open-mmlab/mmdetection) framework and [Segment Anything Model](https://huggingface.co/facebook/sam-vit-huge). Thanks to them for their excellent work.
 
 ## ⭐ Stargazers
-[![Stargazers repo roster for @LiamLian0727/USIS10K](https://reporoster.com/stars/LiamLian0727/UIIS10K)](https://github.com/LiamLian0727/USIS10K/stargazers)
+![Stargazers repo roster for @LiamLian0727/USIS10K](https://reporoster.com/stars/LiamLian0727/UIIS10K)
