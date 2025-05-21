@@ -20,9 +20,6 @@ The dataset follows the COCO format and is organized as follows:
       |   ├── annotations
       │   │   ├── multiclass_train.json
       │   │   ├── multiclass_test.json
-      │   ├── background_img
-      │   │   ├── background_0001.jpg
-      │   │   ├── ...
       │   ├── img
       │   │   ├── train_00001.jpg
       │   │   ├── ...
