@@ -9,7 +9,7 @@ This repository is the official implementation of "[UWSAM: Segment Anything Mode
 If you found this project useful, please give us a star ⭐️ or [cite](#citation) us in your paper, this is the greatest support and encouragement for us.
 
 ## :speech_balloon: Updates
-🚩 **News** (2024.05) We propose a large-scale underwater instance segmentation dataset, UIIS10K, which includes 10,048 images with pixel-level annotations for 10 categories.
+🚩 **News** (2024.05) We propose a large-scale underwater instance segmentation dataset, [UIIS10K](#datasets), which includes 10,048 images with pixel-level annotations for 10 categories.
 
 ## Datasets
 The dataset follows the COCO format and is organized as follows:
