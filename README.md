@@ -2,7 +2,6 @@
 ![issues](https://img.shields.io/github/issues/LiamLian0727/UIIS10K)
 ![forks](https://img.shields.io/github/forks/LiamLian0727/UIIS10K?style=flat&color=orange)
 ![stars](https://img.shields.io/github/stars/LiamLian0727/UIIS10K?style=flat&color=red)
-![license](https://img.shields.io/github/license/LiamLian0727/UIIS10K)
 
 This repository is the official implementation of "[UWSAM: Segment Anything Model Guided Underwater Instance Segmentation and A Large-scale Benchmark Dataset]()".
 
