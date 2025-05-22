@@ -49,7 +49,7 @@ If you find our repo useful for your research, please cite us:
     year      = {2025},
     journal   = {arXiv preprint},
 }
-``
+```
 
 ## ⭐ Stargazers
 [![Stargazers repo roster for @LiamLian0727/USIS10K](https://reporoster.com/stars/LiamLian0727/UIIS10K)](https://github.com/LiamLian0727/UIIS10K/stargazers)
