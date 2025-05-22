@@ -3,7 +3,7 @@
 ![forks](https://img.shields.io/github/forks/LiamLian0727/UIIS10K?style=flat&color=orange)
 ![stars](https://img.shields.io/github/stars/LiamLian0727/UIIS10K?style=flat&color=red)
 
-This repository is the official implementation of "[UWSAM: Segment Anything Model Guided Underwater Instance Segmentation and A Large-scale Benchmark Dataset]()".
+This repository is the official implementation of "[UWSAM: Segment Anything Model Guided Underwater Instance Segmentation and A Large-scale Benchmark Dataset](https://arxiv.org/abs/2505.15581)".
 
 If you found this project useful, please give us a star ⭐️ or [cite](#citation) us in your paper, this is the greatest support and encouragement for us.
 
