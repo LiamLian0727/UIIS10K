@@ -47,7 +47,7 @@ If you find our repo useful for your research, please cite us:
     author    = {Hua Li, Shijie Lian, Zhiyuan Li, Runmin Cong, Sam Kwong},
     title     = {UWSAM: Segment Anything Model Guided Underwater Instance Segmentation and A Large-scale Benchmark Dataset},
     year      = {2025},
-    journal   = {arXiv preprint},
+    journal   = {arXiv preprint arXiv:2505.15581},
 }
 ```
 
