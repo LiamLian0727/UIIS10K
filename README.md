@@ -2,6 +2,9 @@
 ![issues](https://img.shields.io/github/issues/LiamLian0727/UIIS10K)
 ![forks](https://img.shields.io/github/forks/LiamLian0727/UIIS10K?style=flat&color=orange)
 ![stars](https://img.shields.io/github/stars/LiamLian0727/UIIS10K?style=flat&color=red)
+[![arXiv](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-FFD21E)](https://arxiv.org/abs/2505.15581)
+[![huggingface](https://img.shields.io/badge/arXiv-2507.20254-b31b1b.svg)](https://huggingface.co/datasets/LiamLian0727/UIIS10K)
+![license](https://img.shields.io/github/license/LiamLian0727/UIIS10K)
 
 This repository is the official implementation of "[Taming SAM for Underwater Instance Segmentation and Beyond](https://arxiv.org/abs/2505.15581)".
 
