@@ -2,6 +2,7 @@
 [![issues](https://img.shields.io/github/issues/LiamLian0727/UIIS10K)](https://github.com/LiamLian0727/UIIS10K/issues)
 [![forks](https://img.shields.io/github/forks/LiamLian0727/UIIS10K?style=flat&color=orange)](https://github.com/LiamLian0727/UIIS10K/fork)
 [![stars](https://img.shields.io/github/stars/LiamLian0727/UIIS10K?style=flat&color=red)](https://github.com/LiamLian0727/UIIS10K/stargazers)
+[![huggingface](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Paper-FFD21E)](https://huggingface.co/papers/2505.15581)
 [![huggingface](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-FFD21E)](https://huggingface.co/datasets/LiamLian0727/USIS10K)
 [![arXiv](https://img.shields.io/badge/arXiv-2505.15581-b31b1b.svg)](https://arxiv.org/abs/2505.15581)
 [![license](https://img.shields.io/github/license/LiamLian0727/UIIS10K)](LICENSE)
