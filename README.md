@@ -3,7 +3,7 @@
 ![forks](https://img.shields.io/github/forks/LiamLian0727/UIIS10K?style=flat&color=orange)
 ![stars](https://img.shields.io/github/stars/LiamLian0727/UIIS10K?style=flat&color=red)
 
-This repository is the official implementation of "[UWSAM: Segment Anything Model Guided Underwater Instance Segmentation and A Large-scale Benchmark Dataset](https://arxiv.org/abs/2505.15581)".
+This repository is the official implementation of "[Taming SAM for Underwater Instance Segmentation and Beyond](https://arxiv.org/abs/2505.15581)".
 
 If you found this project useful, please give us a star ⭐️ or [cite](#citation) us in your paper, this is the greatest support and encouragement for us.
 
@@ -44,8 +44,8 @@ If you find our repo useful for your research, please cite us:
 }
 
 @article{UIIS10K_Dataset_2025,
-    author    = {Hua Li, Shijie Lian, Zhiyuan Li, Runmin Cong, Sam Kwong},
-    title     = {UWSAM: Segment Anything Model Guided Underwater Instance Segmentation and A Large-scale Benchmark Dataset},
+    author    = {Hua Li, Shijie Lian, Zhiyuan Li, Runmin Cong, Chongyi Li},
+    title     = {Taming SAM for Underwater Instance Segmentation and Beyond},
     year      = {2025},
     journal   = {arXiv preprint arXiv:2505.15581},
 }
