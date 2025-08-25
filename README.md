@@ -7,7 +7,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2505.15581-b31b1b.svg)](https://arxiv.org/abs/2505.15581)
 [![license](https://img.shields.io/github/license/LiamLian0727/UIIS10K)](LICENSE)
 
-This repository is the official implementation of "[Taming SAM for Underwater Instance Segmentation and Beyond](https://arxiv.org/abs/2505.15581)".
+This repository is the official implementation of "[Advancing Marine Research: UWSAM Framework and UIIS10K Dataset for Precise Underwater Instance Segmentation](https://arxiv.org/abs/2505.15581)".
 
 If you found this project useful, please give us a star ⭐️ or [cite](#citation) us in your paper, this is the greatest support and encouragement for us.
 
@@ -49,7 +49,7 @@ If you find our repo useful for your research, please cite us:
 
 @article{UIIS10K_Dataset_2025,
     author    = {Hua Li, Shijie Lian, Zhiyuan Li, Runmin Cong, Chongyi Li, Laurence T. Yang, Weidong Zhang, Sam Kwong},
-    title     = {Taming SAM for Underwater Instance Segmentation and Beyond},
+    title     = {Advancing Marine Research: UWSAM Framework and UIIS10K Dataset for Precise Underwater Instance Segmentation},
     year      = {2025},
     journal   = {arXiv preprint arXiv:2505.15581},
 }
