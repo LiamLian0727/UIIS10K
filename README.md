@@ -48,7 +48,7 @@ If you find our repo useful for your research, please cite us:
 }
 
 @article{UIIS10K_Dataset_2025,
-    author    = {Hua Li, Shijie Lian, Zhiyuan Li, Runmin Cong, Chongyi Li},
+    author    = {Hua Li, Shijie Lian, Zhiyuan Li, Runmin Cong, Chongyi Li, Laurence T. Yang, Weidong Zhang, Sam Kwong},
     title     = {Taming SAM for Underwater Instance Segmentation and Beyond},
     year      = {2025},
     journal   = {arXiv preprint arXiv:2505.15581},
