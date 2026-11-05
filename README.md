@@ -40,15 +40,17 @@ and [USIS10K](https://github.com/LiamLian0727/USIS10K):
 | --- | --- | --- | --- |
 | `configs/_base_/uiis.py` | `data/UIIS/` | 7 | `annotations/train.json`, `annotations/val.json` |
 | `configs/_base_/usis10k.py` | `data/USIS10K/` | 1 (`foreground`) | `foreground_annotations/foreground_{train,val,test}_annotations.json` |
+| `configs/_base_/usis10k_multiclass.py` | `data/USIS10K/` | 7 | `multi_class_annotations/multi_class_{train,val,test}_annotations.json` |
 
 UIIS images are under `train/` and `val/`; evaluation uses the validation split.
 USIS10K images are under `train/`, `val/`, and `test/`, with separate evaluation
-annotations. USIS10K here uses its foreground salient instance segmentation
-annotations. All three data templates use the same 512-pixel resize/crop pipeline.
+annotations. Choose the USIS10K foreground template for single-class salient
+instance segmentation, or the multi-class template for seven-class instance
+segmentation. All data templates use the same 512-pixel resize/crop pipeline.
 
 To use another dataset with UWSAM, replace the `uiis10k.py` data base in the model
-config and change `model.roi_head.bbox_head.num_classes` to 7 (UIIS) or 1
-(USIS10K). For the optional standard Mask R-CNN interfaces, also change
+config and change `model.roi_head.bbox_head.num_classes` to 7 (UIIS or USIS10K
+multi-class) or 1 (USIS10K foreground). For the optional standard Mask R-CNN interfaces, also change
 `model.roi_head.mask_head.num_classes`. Student training requires a converted
 teacher checkpoint trained for the selected dataset. These are data templates;
 images, annotations, and additional dataset-specific trained weights are
@@ -84,8 +86,8 @@ Run the commands below from this repository's root. Place UIIS10K under
 ### Prepare pretrained models
 
 ```bash
-python pretrain/download_pretrained.py sam
-python pretrain/download_pretrained.py efficient-sam-vits
+python tools/download_pretrained.py sam
+python tools/download_pretrained.py efficient-sam-vits
 ```
 
 See the downloader's model choices for SAM ViT-H, EfficientSAM ViT-S, and the
@@ -167,10 +169,9 @@ Use these configs with the same training and testing entrypoints.
 ### Development
 
 ```bash
-pip install pytest ruff
+pip install ruff
 ruff check .
 ruff format --check .
-pytest
 ```
 
 ### Acknowledgements

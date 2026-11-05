@@ -1,9 +1,9 @@
 """Download the public weights used by the UWSAM configs.
 
 Examples:
-    python pretrain/download_pretrained.py sam
-    python pretrain/download_pretrained.py efficient-sam-vits
-    python pretrain/download_pretrained.py sam2-hiera-l
+    python tools/download_pretrained.py sam
+    python tools/download_pretrained.py efficient-sam-vits
+    python tools/download_pretrained.py sam2-hiera-l
 """
 
 import argparse
@@ -13,7 +13,7 @@ import urllib.request
 import zipfile
 from pathlib import Path
 
-PRETRAIN_DIR = Path(__file__).resolve().parent
+PRETRAIN_DIR = Path(__file__).resolve().parents[1] / "pretrain"
 EFFICIENT_SAM_URL = (
     "https://github.com/yformer/EfficientSAM/raw/main/weights/efficient_sam_vits.pt.zip"
 )
