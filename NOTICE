@@ -1,0 +1,11 @@
+UWSAM / UIIS10K
+
+This distribution includes code adapted from:
+- RSPrompter: https://github.com/KyanChen/RSPrompter (Apache-2.0).
+- MMDetection / OpenMMLab: https://github.com/open-mmlab/mmdetection (Apache-2.0).
+- EfficientSAM / Meta: https://github.com/yformer/EfficientSAM (Apache-2.0).
+- SAM 2 / Meta: https://github.com/facebookresearch/sam2 (Apache-2.0).
+
+Original copyright notices remain in derived files. Third-party license texts
+are provided in LICENSES/. Model weights and datasets are obtained separately
+and retain their upstream terms. The root LICENSE covers this code distribution.

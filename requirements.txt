@@ -1,0 +1,12 @@
+# Install a matching PyTorch / torchvision pair and full MMCV first (see README).
+numpy>=1.23,<2
+mmengine==0.10.7
+mmcv==2.1.0
+mmdet==3.3.0
+mmpretrain==1.2.0
+transformers==4.50.3
+peft==0.14.0
+torch-geometric==2.6.1
+timm==0.9.16
+einops>=0.6,<1
+huggingface-hub>=0.26,<1

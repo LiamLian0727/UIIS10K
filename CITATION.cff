@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use UWSAM or UIIS10K, please cite this paper."
+title: "Advancing Marine Research: UWSAM Framework and UIIS10K Dataset for Precise Underwater Instance Segmentation"
+type: software
+authors:
+  - family-names: Li
+    given-names: Hua
+  - family-names: Lian
+    given-names: Shijie
+  - family-names: Li
+    given-names: Zhiyuan
+  - family-names: Cong
+    given-names: Runmin
+  - family-names: Li
+    given-names: Chongyi
+  - family-names: Yang
+    given-names: Laurence T.
+  - family-names: Zhang
+    given-names: Weidong
+  - family-names: Kwong
+    given-names: Sam
+url: "https://github.com/LiamLian0727/UIIS10K"
+license: Apache-2.0
