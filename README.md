@@ -31,6 +31,29 @@ The dataset follows the COCO format and is organized as follows:
 ```
 you can get our UIIS10K dataset in [Hugging Face](https://huggingface.co/datasets/LiamLian0727/UIIS10K/tree/main), [Baidu Disk](https://pan.baidu.com/s/1WwDu_jYV8JsPvOGA2l6raQ?pwd=UIIS) (pwd:UIIS), or [Google Drive](https://drive.google.com/file/d/1MYQwWrQW_n9N-q_VPMuQaroIp5gS2f-u/view?usp=sharing).
 
+### Other datasets
+
+We provide data templates for [UIIS](https://github.com/LiamLian0727/WaterMask)
+and [USIS10K](https://github.com/LiamLian0727/USIS10K):
+
+| Data config | Root | Classes | Annotation files relative to root |
+| --- | --- | --- | --- |
+| `configs/_base_/uiis.py` | `data/UIIS/` | 7 | `annotations/train.json`, `annotations/val.json` |
+| `configs/_base_/usis10k.py` | `data/USIS10K/` | 1 (`foreground`) | `foreground_annotations/foreground_{train,val,test}_annotations.json` |
+
+UIIS images are under `train/` and `val/`; evaluation uses the validation split.
+USIS10K images are under `train/`, `val/`, and `test/`, with separate evaluation
+annotations. USIS10K here uses its foreground salient instance segmentation
+annotations. All three data templates use the same 512-pixel resize/crop pipeline.
+
+To use another dataset with UWSAM, replace the `uiis10k.py` data base in the model
+config and change `model.roi_head.bbox_head.num_classes` to 7 (UIIS) or 1
+(USIS10K). For the optional standard Mask R-CNN interfaces, also change
+`model.roi_head.mask_head.num_classes`. Student training requires a converted
+teacher checkpoint trained for the selected dataset. These are data templates;
+images, annotations, and additional dataset-specific trained weights are
+obtained separately.
+
 ## Code
 
 The main implementation provides UWSAM-Teacher, UWSAM-Student, Mask GAT-based
